@@ -1,0 +1,101 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets.css" />
+  <script type="text/javascript" src="assets.js"></script>
+
+</head>
+<body>
+
+<div id="page">
+  <div class="section">
+    <div class="header">
+      <div class="wrapper padding10">
+        <div class="flex-row">
+          <div class="flex-col padding5"><div class="logo"></div></div>
+          <div class="flex-col stretched no-wrap"><div class="searchbar flex"></div></div>
+          <div class="flex-col no-wrap add-left-space">
+            <button class="red">Ask New Question</button>
+            <button>Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="wrapper">
+        <div class="flex-row flex-valign-top">
+          <div class="flex-col stretched">
+            <br />
+            <div>
+              <a class="gray" href="#">Programming Frameworks</a>
+              <a class="gray" href="#">Javascript Frameworks</a>
+              <a class="gray" href="#">React (Javascript library)</a>
+              <a class="gray" href="#">AngularJS</a>
+            </div>
+            <div>
+              <h1>Is React killing Angular?</h1>
+            </div>
+            <div>
+              <h3>78 Answers</h3>
+            </div>
+            <div>
+              <p>
+                This is a very controversial issue because in fact these tools can be used for absolutely different purposes. Therefore, before we make pre-time conclusions, let's see what the difference between these frameworks.
+                <br /><br />
+                The history of Angular began in 2010 when the AngularJS framework was released by Google. In 2016 Angular 2 appeared, which was a complete rewrite of Angular JS. Together with Angular 4 and 5 released in 2017, these framework versions have become the main web development trends of the current year. And here are the reasons.
+                <br /><br />
+                <h5>Advantages of Angular framework</h5>
+                <br /><br />
+                <ul>
+                  <li>
+                    MVC framework
+                    <p>
+                      Angular is a traditional MVC (Model-View-Controller) framework. Due to this structure, the application is divided into three interconnected components. This enables developers to write well-structured code, which is even more beneficial for complex projects.
+                    </p>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="flex-col width360 add-left-space">
+            <h4>Related Questions</h4>
+            <br />
+            <a href="#">What can you do in React that you can't do in Angular?</a>
+            <a href="#">Should I learn Angular or React?</a>
+            <a href="#">How do I choose between React and Angular?</a>
+            <a href="#">Which is better, Angular 4 or React/Redux?</a>
+            <a href="#">Should I learn React or Angular?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  var app = {
+
+    prop:{
+      ".searchbar":{ width:"200px" }
+    },
+
+    render:function(){
+
+      $('.logo').css({
+        width:'125px',
+        height:'40px',
+        background:"url('//qsf.fs.quoracdn.net/-3-images.logo.wordmark_default.svg-26-32753849bf197b54.svg') no-repeat left center",
+        'background-size':"auto 70%"
+      });
+
+    }
+
+  }
+
+
+</script>
+
+</body>
+</html>
