@@ -89,15 +89,6 @@ NDDOM.is_in_viewport = function(el){
 
 function $(selector, parent){ return new NDDOM(selector, parent); }
 
-Object.prototype.start = function(){
-
-  if(!("render" in this)) return;
-  this.render();
-
-  $('#page').addClass('on');
-
-}
-
 window.addEventListener('load', NDDOM.start);
 
 NDDOM._namespaces.push('searchbar');
@@ -117,6 +108,7 @@ NDDOM.prototype.section = function(){
 
   this.each(function(){
 
+    $('.header')
 
   })
 

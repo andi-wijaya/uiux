@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ndjs.iml" filepath="$PROJECT_DIR$/.idea/ndjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uiux.iml" filepath="$PROJECT_DIR$/.idea/uiux.iml" />
     </modules>
   </component>
 </project>

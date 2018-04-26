@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1998a43f-ce70-4f58-b94c-853f4ac167d4" name="Default" comment="" />
+    <list default="true" id="9ff60a8d-79d2-404f-bb02-4564e4273971" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ndjs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpstorm-thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/phpstorm-thankyou.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,72 +17,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="quora1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quora1.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="113" lean-forward="true" selection-start-line="3" selection-start-column="113" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="215">
+              <caret line="518" column="38" selection-start-line="518" selection-start-column="38" selection-end-line="518" selection-end-column="38" />
               <folding>
-                <element signature="e#3181#3524#0" expanded="true" />
-                <element signature="e#3193#3237#0" expanded="true" />
-                <element signature="e#3285#3510#0" expanded="true" />
+                <element signature="e#413#7850#0" />
+                <element signature="e#791#825#0" />
+                <element signature="e#1087#1189#0" />
+                <element signature="e#1137#1167#0" />
+                <element signature="e#1332#1419#0" />
+                <element signature="e#1732#1975#0" />
+                <element signature="e#1889#1917#0" />
+                <element signature="e#2091#2257#0" />
+                <element signature="e#2294#2500#0" />
+                <element signature="e#2737#2826#0" />
+                <element signature="e#2934#3034#0" />
+                <element signature="e#3071#3188#0" />
+                <element signature="e#3210#3377#0" />
+                <element signature="e#3498#3608#0" />
+                <element signature="e#3741#3809#0" />
+                <element signature="e#3831#4120#0" />
+                <element signature="e#4849#5203#0" />
+                <element signature="e#4851#4900#0" />
+                <element signature="e#5033#5101#0" />
+                <element signature="e#5225#5641#0" />
+                <element signature="e#5227#5251#0" />
+                <element signature="e#5663#5880#0" />
+                <element signature="e#5902#6032#0" />
+                <element signature="e#6054#6969#0" />
+                <element signature="e#6056#6100#0" />
+                <element signature="e#6233#6939#0" />
+                <element signature="e#7490#7803#0" />
+                <element signature="e#8759#8848#0" />
+                <element signature="e#8928#17313#0" />
+                <element signature="e#8934#8987#0" />
+                <element signature="e#10072#10098#0" />
+                <element signature="e#10159#10250#0" />
+                <element signature="e#10409#10466#0" />
+                <element signature="e#10884#14755#0" />
+                <element signature="e#10913#11686#0" />
+                <element signature="e#10923#11678#0" />
+                <element signature="e#10973#11250#0" />
+                <element signature="e#11035#11077#0" />
+                <element signature="e#11281#11360#0" />
+                <element signature="e#11391#11668#0" />
+                <element signature="e#11453#11495#0" />
+                <element signature="e#11713#12684#0" />
+                <element signature="e#11723#12676#0" />
+                <element signature="e#11773#12050#0" />
+                <element signature="e#11835#11877#0" />
+                <element signature="e#12081#12358#0" />
+                <element signature="e#12143#12185#0" />
+                <element signature="e#12389#12666#0" />
+                <element signature="e#12451#12493#0" />
+                <element signature="e#12690#14749#0" />
+                <element signature="e#12700#14741#0" />
+                <element signature="e#12750#13139#0" />
+                <element signature="e#12846#12888#0" />
+                <element signature="e#13170#13961#0" />
+                <element signature="e#13225#13512#0" />
+                <element signature="e#13287#13333#0" />
+                <element signature="e#13557#13887#0" />
+                <element signature="e#13620#13666#0" />
+                <element signature="e#13992#14381#0" />
+                <element signature="e#14088#14130#0" />
+                <element signature="e#14412#14731#0" />
+                <element signature="e#14491#14533#0" />
+                <element signature="e#14845#14948#0" />
+                <element signature="e#14992#15031#0" />
+                <element signature="e#15421#15804#0" />
+                <element signature="e#15497#15798#0" />
+                <element signature="e#15560#15602#0" />
+                <element signature="e#15641#15673#0" />
+                <element signature="e#15712#15744#0" />
+                <element signature="e#15832#16676#0" />
+                <element signature="e#16193#16237#0" />
+                <element signature="e#16316#16406#0" />
+                <element signature="e#16435#16501#0" />
+                <element signature="e#16549#16594#0" />
+                <element signature="e#16619#16650#0" />
+                <element signature="e#17042#17068#0" />
+                <element signature="e#17120#17188#0" />
+                <element signature="e#17152#17182#0" />
+                <element signature="e#17194#17214#0" />
+                <element signature="e#18232#20863#0" />
+                <element signature="e#18238#18288#0" />
+                <element signature="e#20039#20291#0" />
+                <element signature="e#20080#20174#0" />
+                <element signature="e#20180#20285#0" />
+                <element signature="e#20242#20277#0" />
+                <element signature="e#20441#20492#0" />
+                <element signature="e#20666#20732#0" />
+                <element signature="e#21207#21302#0" />
+                <element signature="e#21375#21580#0" />
+                <element signature="e#21777#22492#0" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phpstorm-thankyou.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/phpstorm-thankyou.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phpstorm-thankyou.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpstorm-thankyou.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#46#36331#2" expanded="true" />
-                <element signature="e#36417#73670#2" expanded="true" />
-                <element signature="e#73756#111853#2" expanded="true" />
-                <element signature="e#111939#150168#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1643#1726#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="161" column="39" lean-forward="true" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -84,68 +125,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$(</find>
-      <find>nd(</find>
-      <find>border-radius: 4px;</find>
-      <find>table-col</find>
-      <find>table-row</find>
-      <find>flex-row</find>
-      <find>add-</find>
+      <find>start</find>
     </findStrings>
-    <replaceStrings>
-      <replace>nd(</replace>
-      <replace>$(</replace>
-      <replace>border-radius: 3px;</replace>
-      <replace>flex-col</replace>
-      <replace>flex-row</replace>
-      <replace>f-row</replace>
-    </replaceStrings>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/quora1.html" />
-        <option value="$PROJECT_DIR$/assets.js" />
-        <option value="$PROJECT_DIR$/assets.css" />
         <option value="$PROJECT_DIR$/phpstorm-thankyou.html" />
-        <option value="$PROJECT_DIR$/phpstorm-thankyou.css" />
+        <option value="$PROJECT_DIR$/assets.js" />
+        <option value="$PROJECT_DIR$/test.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="760" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -154,20 +163,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="ndjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ndjs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uiux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uiux" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,66 +188,53 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1998a43f-ce70-4f58-b94c-853f4ac167d4" name="Default" comment="" />
-      <created>1523691508790</created>
+      <changelist id="9ff60a8d-79d2-404f-bb02-4564e4273971" name="Default" comment="" />
+      <created>1523847858523</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523691508790</updated>
-      <workItem from="1523691511476" duration="22626000" />
+      <updated>1523847858523</updated>
+      <workItem from="1523847859821" duration="581000" />
+      <workItem from="1523938691065" duration="45000" />
+      <workItem from="1523970487811" duration="3000" />
+      <workItem from="1523975582026" duration="487000" />
+      <workItem from="1524009512614" duration="1680000" />
+      <workItem from="1524059783914" duration="343000" />
+      <workItem from="1524631373709" duration="2347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22626000" />
+    <option name="totallyTimeSpent" value="5486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20436187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18497577" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20436187" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -249,60 +243,90 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/assets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#NDDOM#0" />
+            <element signature="e#207#269#0" />
+            <element signature="e#305#405#0" />
+            <element signature="e#330#400#0" />
+            <element signature="e#355#396#0" />
+            <element signature="e#452#522#0" />
+            <element signature="e#564#975#0" />
+            <element signature="e#687#726#0" />
+            <element signature="e#733#971#0" />
+            <element signature="e#875#966#0" />
+            <element signature="e#920#960#0" />
+            <element signature="e#1084#1462#0" />
+            <element signature="e#1219#1429#0" />
+            <element signature="e#1498#1943#0" />
+            <element signature="e#1643#1726#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quora1.html">
+    <entry file="file://$PROJECT_DIR$/phpstorm-thankyou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="113" lean-forward="true" selection-start-line="3" selection-start-column="113" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpstorm-thankyou.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding>
-            <element signature="e#3181#3524#0" expanded="true" />
-            <element signature="e#3193#3237#0" expanded="true" />
-            <element signature="e#3285#3510#0" expanded="true" />
+            <element signature="e#46#36331#2" expanded="true" />
+            <element signature="e#36417#73670#2" expanded="true" />
+            <element signature="e#73756#111853#2" expanded="true" />
+            <element signature="e#111939#150168#2" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="101" column="4" lean-forward="true" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
           <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1643#1726#0" expanded="false" />
+            <element signature="n#!!block;n#NDDOM#0" />
+            <element signature="e#207#269#0" />
+            <element signature="e#305#405#0" />
+            <element signature="e#330#400#0" />
+            <element signature="e#355#396#0" />
+            <element signature="e#452#522#0" />
+            <element signature="e#564#975#0" />
+            <element signature="e#687#726#0" />
+            <element signature="e#733#971#0" />
+            <element signature="e#875#966#0" />
+            <element signature="e#920#960#0" />
+            <element signature="e#1084#1462#0" />
+            <element signature="e#1219#1429#0" />
+            <element signature="e#1498#1943#0" />
+            <element signature="e#1643#1726#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets.css">
+    <entry file="file://$PROJECT_DIR$/quora1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="161" column="39" lean-forward="true" selection-start-line="161" selection-start-column="39" selection-end-line="161" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpstorm-thankyou.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="533">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#46#36331#2" expanded="true" />
             <element signature="e#36417#73670#2" expanded="true" />
@@ -314,9 +338,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phpstorm-thankyou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#NDDOM#0" />
+            <element signature="e#207#269#0" />
+            <element signature="e#305#405#0" />
+            <element signature="e#330#400#0" />
+            <element signature="e#355#396#0" />
+            <element signature="e#452#522#0" />
+            <element signature="e#564#975#0" />
+            <element signature="e#687#726#0" />
+            <element signature="e#733#971#0" />
+            <element signature="e#875#966#0" />
+            <element signature="e#920#960#0" />
+            <element signature="e#1084#1462#0" />
+            <element signature="e#1219#1429#0" />
+            <element signature="e#1498#1943#0" />
+            <element signature="e#1643#1726#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="518" column="38" selection-start-line="518" selection-start-column="38" selection-end-line="518" selection-end-column="38" />
+          <folding>
+            <element signature="e#413#7850#0" />
+            <element signature="e#791#825#0" />
+            <element signature="e#1087#1189#0" />
+            <element signature="e#1137#1167#0" />
+            <element signature="e#1332#1419#0" />
+            <element signature="e#1732#1975#0" />
+            <element signature="e#1889#1917#0" />
+            <element signature="e#2091#2257#0" />
+            <element signature="e#2294#2500#0" />
+            <element signature="e#2737#2826#0" />
+            <element signature="e#2934#3034#0" />
+            <element signature="e#3071#3188#0" />
+            <element signature="e#3210#3377#0" />
+            <element signature="e#3498#3608#0" />
+            <element signature="e#3741#3809#0" />
+            <element signature="e#3831#4120#0" />
+            <element signature="e#4849#5203#0" />
+            <element signature="e#4851#4900#0" />
+            <element signature="e#5033#5101#0" />
+            <element signature="e#5225#5641#0" />
+            <element signature="e#5227#5251#0" />
+            <element signature="e#5663#5880#0" />
+            <element signature="e#5902#6032#0" />
+            <element signature="e#6054#6969#0" />
+            <element signature="e#6056#6100#0" />
+            <element signature="e#6233#6939#0" />
+            <element signature="e#7490#7803#0" />
+            <element signature="e#8759#8848#0" />
+            <element signature="e#8928#17313#0" />
+            <element signature="e#8934#8987#0" />
+            <element signature="e#10072#10098#0" />
+            <element signature="e#10159#10250#0" />
+            <element signature="e#10409#10466#0" />
+            <element signature="e#10884#14755#0" />
+            <element signature="e#10913#11686#0" />
+            <element signature="e#10923#11678#0" />
+            <element signature="e#10973#11250#0" />
+            <element signature="e#11035#11077#0" />
+            <element signature="e#11281#11360#0" />
+            <element signature="e#11391#11668#0" />
+            <element signature="e#11453#11495#0" />
+            <element signature="e#11713#12684#0" />
+            <element signature="e#11723#12676#0" />
+            <element signature="e#11773#12050#0" />
+            <element signature="e#11835#11877#0" />
+            <element signature="e#12081#12358#0" />
+            <element signature="e#12143#12185#0" />
+            <element signature="e#12389#12666#0" />
+            <element signature="e#12451#12493#0" />
+            <element signature="e#12690#14749#0" />
+            <element signature="e#12700#14741#0" />
+            <element signature="e#12750#13139#0" />
+            <element signature="e#12846#12888#0" />
+            <element signature="e#13170#13961#0" />
+            <element signature="e#13225#13512#0" />
+            <element signature="e#13287#13333#0" />
+            <element signature="e#13557#13887#0" />
+            <element signature="e#13620#13666#0" />
+            <element signature="e#13992#14381#0" />
+            <element signature="e#14088#14130#0" />
+            <element signature="e#14412#14731#0" />
+            <element signature="e#14491#14533#0" />
+            <element signature="e#14845#14948#0" />
+            <element signature="e#14992#15031#0" />
+            <element signature="e#15421#15804#0" />
+            <element signature="e#15497#15798#0" />
+            <element signature="e#15560#15602#0" />
+            <element signature="e#15641#15673#0" />
+            <element signature="e#15712#15744#0" />
+            <element signature="e#15832#16676#0" />
+            <element signature="e#16193#16237#0" />
+            <element signature="e#16316#16406#0" />
+            <element signature="e#16435#16501#0" />
+            <element signature="e#16549#16594#0" />
+            <element signature="e#16619#16650#0" />
+            <element signature="e#17042#17068#0" />
+            <element signature="e#17120#17188#0" />
+            <element signature="e#17152#17182#0" />
+            <element signature="e#17194#17214#0" />
+            <element signature="e#18232#20863#0" />
+            <element signature="e#18238#18288#0" />
+            <element signature="e#20039#20291#0" />
+            <element signature="e#20080#20174#0" />
+            <element signature="e#20180#20285#0" />
+            <element signature="e#20242#20277#0" />
+            <element signature="e#20441#20492#0" />
+            <element signature="e#20666#20732#0" />
+            <element signature="e#21207#21302#0" />
+            <element signature="e#21375#21580#0" />
+            <element signature="e#21777#22492#0" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
