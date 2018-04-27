@@ -3,11 +3,61 @@
 
   <script>
 
-    /**
-     * Required at the very first script
-     * in order for the other modules to work
-     */
-    window.ux = "ux" in window ? window.ux : {};
+    (function(){
+
+      "use strict";
+
+      window.NDDOM = function(selector, parent){
+
+        this.selector = selector;
+        this.parent = parent;
+
+      }
+      window.NDDOM.prototype.html = function(html){
+
+        this.each(function(){
+          this.innerHTML = html;
+        });
+
+      }
+      window.NDDOM.prototype.css = function(css){
+
+        this.each(function(){
+          for(var key in css){
+            this.style[key] = css[key];
+          }
+        });
+
+      }
+      window.NDDOM.prototype.addClass = function(className){
+
+        this.each(function(){
+          this.classList.add(className);
+        });
+
+      }
+      window.NDDOM.prototype.each = function(callback){
+
+        if(typeof callback == 'undefined' || typeof callback != 'function') return;
+        if(this.selector instanceof HTMLElement){
+          callback.call(this.selector);
+        }
+        else{
+          var cont = this.parent instanceof HTMLElement ? this.parent : document;
+          var _nl = cont.querySelectorAll(this.selector);
+          if(_nl.length > 0){
+            for(var i = 0 ; i < _nl.length ; i++){
+              callback.call(_nl[i]);
+            }
+          }
+        }
+
+      }
+
+      window.$ = "$" in window ? $ : function(selector, parent){ return new NDDOM(selector, parent); }
+      $.hello = function(){ alert('Hello'); }
+
+    })();
 
     /**
      * Utilities modules
@@ -17,9 +67,7 @@
 
       "use strict";
 
-      window.util = "util" in window ? window.util : {};
-
-      window.util.date = function(format, timestamp){
+      $.date = function(format, timestamp){
 
         var that = this;
         var jsdate, f;
@@ -247,14 +295,14 @@
 
       };
 
-      window.util.uniqid = function(){
+      $.uniqid = function(){
 
         if(typeof window.__UNIQID == 'undefined') window.__UNIQID = 0;
         return ++window.__UNIQID;
 
       };
 
-      window.util.strtotime = function(text, now) {
+      $.strtotime = function(text, now) {
         //  discuss at: http://phpjs.org/functions/strtotime/
         //     version: 1109.2016
         // original by: Caio Ariede (http://caioariede.com)
@@ -516,7 +564,7 @@
         return (date.getTime() / 1000);
       };
 
-      window.util.mktime = function() {
+      $.mktime = function() {
         //  discuss at: http://phpjs.org/functions/mktime/
         // original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
         // improved by: baris ozdil
@@ -589,23 +637,23 @@
       };
 
       /**
-       * Require util.date
+       * Require $.date
        */
-      window.util.start_day_of_month = function(year, month){
+      $.start_day_of_month = function(year, month){
 
-        var N = util.date('N', $.mktime(0, 0, 0, month, 1, year));
+        var N = $.date('N', $.mktime(0, 0, 0, month, 1, year));
         return N;
       };
 
       /**
-       * Require util.date
+       * Require $.date
        */
-      window.util.last_date_of_month = function(year, month){
+      $.last_date_of_month = function(year, month){
 
         var d = 27;
         do{
           d++;
-          var j = parseInt(util.date('j', $.mktime(0, 0, 0, month, d, year)));
+          var j = parseInt($.date('j', $.mktime(0, 0, 0, month, d, year)));
 
           if(j != d){
             d--;
@@ -616,7 +664,7 @@
         return d;
       };
 
-      window.util.http_build_query = function(obj, num_prefix, temp_key){
+      $.http_build_query = function(obj, num_prefix, temp_key){
 
         var output_string = []
 
@@ -631,7 +679,7 @@
             temp_key ? key = temp_key + '[' + key + ']' : ''
 
             if (typeof obj[val] === 'object') {
-              var query = util.http_build_query(obj[val], null, key)
+              var query = $.http_build_query(obj[val], null, key)
               output_string.push(query)
             }
 
@@ -649,23 +697,26 @@
 
     })();
 
-    /**
-     * Hello
-     */
-    (function(){
-
-      "use strict";
-
-      window.ux.hello = function(){
-        console.log("Hello World");
-      }
-
-    })();
-
   </script>
 
 </head>
 <body>
+
+  <div class="app">
+
+    <table cellspacing="10">
+      <tr>
+        <td><span class="textbox"></span></td>
+      </tr>
+    </table>
+
+  </div>
+
+  <script>
+
+    $('.textbox').html('Hello');
+
+  </script>
 
 </body>
 </html>
