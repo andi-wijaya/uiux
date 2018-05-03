@@ -1,0 +1,141 @@
+<html>
+<head>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="components.js"></script>
+  <link rel="stylesheet" href="components.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+  <div class="f-row">
+    <div class="f-col-3">
+      <span id="textbox1"></span>
+    </div>
+    <div class="f-col-3">
+      <span id="textbox2"></span>
+    </div>
+    <div class="f-col-3">
+      <span id="textarea1"></span>
+    </div>
+    <div class="f-col-3">
+      <span id="dropdown1"></span>
+    </div>
+  </div>
+
+  <div class="f-row">
+    <div class="f-col-5">
+      <span id="autocomplete1"></span>
+    </div>
+    <div class="f-col-5">
+      <button class="red"><label class="padding5">Red Button</label></button>
+      <button class="green"><label class="padding5">Green Button</label></button>
+      <button class="blue"><label class="padding5">Blue Button</label></button>
+      <button class="gray"><label class="padding5">Gray Button</label></button>
+      <button><label class="padding5">Default Button</label></button>
+    </div>
+    <div class="f-col-2">
+      <span id="dropdown2"></span>
+    </div>
+  </div>
+
+  <div class="f-row">
+    <div class="f-col-6">
+      <span id="gridhead1"></span>
+      <div></div>
+      <span id="grid1"></span>
+    </div>
+    <div class="f-col-6">
+      <span id="gridhead2"></span>
+      <div></div>
+      <span id="grid2"></span>
+    </div>
+  </div>
+
+  <div class="f-row">
+    <div class="f-col-s">
+      <button class="gray"><label class="padding1020">Big Gray Button</label></button>
+      <button class=""><label class="padding1020">Big Default Button</label></button>
+      <button class="light toggle"><label class="padding1020">Toggle Button</label></button>
+    </div>
+  </div>
+
+
+  <script>
+
+    (function(){
+
+      "use strict";
+
+      window.sample_items = [
+        { text:"Lorem ipsum", value:"Lorem ipsum" },
+        { text:"dolor sit amet", value:"dolor sit amet" },
+        { text:"consectetur", value:"consectetur" },
+        { text:"adipiscing", value:"adipiscing" },
+        { text:"Mauris nibh mi", value:"Mauris nibh mi" },
+      ]
+
+
+      $('#textbox1').textbox({ class:"block", placeholder:"Default Textbox" });
+      $('#textbox2').textbox({ class:"block", placeholder:"Textbox 200px" });
+      $('#textarea1').textarea({ class:"block", placeholder:"Textarea", height:"50px" });
+      $('#dropdown1').dropdown({ class:"block", items:window.sample_items, placeholder:"Dropdown" });
+      $('#dropdown2').dropdown({ class:"block", items:window.sample_items, placeholder:"Dropdown" });
+
+      var grid1_columns = [
+        { name:'text', text:"Text", width:"100px" },
+        { name:'value', text:"Value", width:"100px" },
+      ];
+      $('#gridhead1').gridhead({ class:"block", columns:grid1_columns, grid:"#grid1" });
+      $('#grid1').grid({ class:"block", columns:grid1_columns, src:"sample_data.php" });
+
+      $('#autocomplete1').autocomplete({ class:"block", src:"sample_data.php", map:{ text:"text", value:"value" }, placeholder:"Autocomplete" });
+
+      var grid2_columns = [
+        {
+          type:"html",
+          html:function(){
+            $(this).html("<span class='g2-textbox1'></span>");
+            $('.g2-textbox1', this).textbox({
+              class:"block",
+              placeholder:"Textbox"
+            })
+          },
+          text:"Textbox",
+          width:"100px"
+        },
+        {
+          type:"html",
+          html:function(){
+            $(this).html("<span class='g2-dropdown1'></span>");
+            $('.g2-dropdown1', this).dropdown({
+              class:"block",
+              placeholder:"Dropdown",
+              items:window.sample_items
+            })
+          },
+          text:"Dropdown",
+          width:"100px"
+        },
+        {
+          type:"html",
+          html:function(){
+            $(this).html("<span class='g2-autocomplete1'></span>");
+            $('.g2-autocomplete1', this).autocomplete({
+              class:"block",
+              placeholder:"Autocomplete",
+              src:"sample_data.php"
+            })
+          },
+          text:"Autocomplete",
+          width:"120px"
+        }
+      ];
+      $('#gridhead2').gridhead({ class:"block", columns:grid2_columns, grid:"#grid2" });
+      $('#grid2').grid({ class:"block", columns:grid2_columns, src:"sample_data.php" });
+
+    })();
+
+  </script>
+
+</body>
+</html>
